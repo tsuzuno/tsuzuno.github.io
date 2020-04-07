@@ -11,6 +11,103 @@ a {
   text-decoration: none;
 }
 
+
+.first-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.suzuno-image {
+  border-radius: 10px;
+  margin: 10px;
+  width: 50%;
+  height: 50%;
+}
+
+.detail-wrapper {
+  background-color: #6f91df;
+  width: 300px;
+  height: 100%;
+  border-radius: 16px;
+  margin-right: -30px;
+  display: flex;
+  align-items: center;
+  padding: 24px; 
+  z-index: 1;
+}
+
+.detail-text {
+  margin-right: -20px;
+  color: white;
+}
+
+.second-detail-wrapper {
+  background-color: #6f91df;
+  width: 300px;
+  height: 100%;
+  border-radius: 16px;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  padding: 24px; 
+  z-index: 1;
+}
+
+.second-detail-text {
+  margin-right: -20px;
+  color: white;
+}
+
+.btn-container {
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  text-align: center;
+}
+
+.btn-border {
+  display: inline-block;
+  max-width: 200px;
+  text-align: left;
+  border: 2px solid #9ec34b;
+  font-size: 16px;
+  color: #9ec34b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.btn-border:hover {
+  background-color: #9ec34b;
+  border-color: #cbe585;
+  color: #FFF;
+}
+
+.detail-wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #9ec34b;
+  margin-left: 10px;
+  margin-bottom: 8px;
+}
+
 .container {
   width: 100%;
   padding: 0 15px;
