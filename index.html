@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>My profile</title>
@@ -24,21 +25,6 @@ p {
     z-index: 999;
     margin: 50px 0 0;
     color: #fff;
-    letter-spacing: 2px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    background-color: #F44336;
-    display: block;
-    padding: 15px 25px;
-    border-radius: 5px;
-    box-shadow: 0 4px 0 0 #9e2b23;
-    font-weight: bold;
-    width: 300px;
-    text-align: center;
-    margin: 110px auto 0;
     letter-spacing: 2px;
 }
 
@@ -72,21 +58,51 @@ img {
     height: 300px;
     display: inline-block;
     vertical-align: top;
-    position: absolute;
     right: 30px;
 }
 </style>
 </head>
 <body>
   <h1>Welcome to my page!</h1>
-  <p>こんにちは！ZUNOです！初めてのホームページ作成で上手くいっているのかも不安です。
-  私の趣味などについて書かせていただきます！</p>
-  
-  
-  <img src="suzuno.jpg" alt="my last day at Starbucks pic📷">
-  
-  
-  
-  <a href="https://www.instagram.com/zuno_79/"><font size="1" color="#00FFFF"><b>my Instagram 📸</b></font></a>
+  <div class="first-wrapper">
+    <div class="detail-wrapper">
+      <div class="detail-text">
+            こんにちは！ZUNOです！ <br>
+            初めてのホームページ作成で <br>
+            上手くいっているのかも不安です。<br>
+            私の趣味などについて書かせていただきます！<br>
+      </div>
+    </div>
+    <img class="suzuno-image" src="suzuno.jpg" alt="my last day at Starbucks pic📷">
+  </div>
+  <div class="second-wrapper">
+    <img class="suzuno-image" src="tennis.jpg" alt="my last day at Starbucks pic📷">
+    <div class="second-detail-wrapper">
+      <div class="second-detail-text">
+            大学の4年間はテニスサークルに所属していました！<br>
+            ２，３年生の時はサークルの代表もしていました。
+        　　テニスの実力はないですが、ダブルスが大好きです！＜br＞
+        　　一緒にテニスしてくれる方がいらしたら、お手柔らかにお願いします…。<br>
+      </div>
+    </div>
+  </div>
+  <div class="first-wrapper">
+    <div class="detail-wrapper">
+      <div class="detail-text">
+            まだAWSにJoinして数日しかたっていませんが、キャパオーバーで付いていくのに必死です。<br>
+            しかし、優秀な同期と素晴らしい先輩方と毎日新しいことを学べて嬉しい限りです！<br>
+            これからも末永く皆様よろしくお願いいたします！！<br>
+      </div>
+    </div>
+    <img class="suzuno-image" src="AWS.jpg" alt="my last day at Starbucks pic📷">
+  </div>
+  <div class="detail-wrapper2">
+      <div class="detail2">
+        ☟　Follow me ☟
+      </div>
+  </div>
+  <div class="btn-container">
+    <a href="https://www.instagram.com/zuno_79/" class="btn-border">my Instagram 📸
+  </div>
 </body>
 </html>
